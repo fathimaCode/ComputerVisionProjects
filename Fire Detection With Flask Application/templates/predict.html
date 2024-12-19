@@ -1,0 +1,105 @@
+{% include "header.html" %}
+<style>
+   .scroll-container {
+      margin: 25px;
+      width: 550px;
+      display: flex;
+      overflow-x: auto;
+      white-space: nowrap;
+      padding: 10px;
+      border: 1px solid #ddd;
+      background-color: #f9f9f9;
+   }
+   .scroll-container img {
+      display: inline-block;
+      max-width: 100%;
+      height: auto;
+      margin-right: 10px; /* Space between images */
+   }
+   .results{
+      padding: 25px;
+      font-size: 20px;
+      font-weight: bold;
+   }
+   .color_Code{
+      background-color: green;
+      color: white;
+      margin: 15px;
+      width: 250px;
+      border-radius: 25px;
+   }
+   .color_Code span{
+      padding: 25px;
+   }
+
+</style>
+      <!-- end header -->
+     <div class="back_re">
+         <div class="container">
+            <div class="row">
+               <div class="col-md-12">
+                  <div class="title">
+                     <h2>Video Test</h2>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- what we do  -->
+      <div class="we_do slin">
+         <div class="container">
+            <div class="row">
+               <div class="col-lg-10 offset-lg-1 col-md-12">
+                  <div class="row">
+                     <div class="col-sm-6">
+                       
+                        <form id="videoUploadForm" action="{{ url_for('upload') }}" method="post" enctype="multipart/form-data" class="text-center">
+                           <div class="form-group">
+                              <label for="videoFile">Upload your video:</label>
+                              <input type="file" id="videoFile" name="videoFile" accept="video/*" required>
+                           </div>
+                           <button type="submit" class="btn btn-primary">Predict</button>
+                        
+                        </form>
+                        <br>
+                        {% if session['mode']=='fire_images' %}
+                        <div class="container" id="precaution">
+                           <h2>Fire Detected - Precaution Points {{session['mode']}}</h2>
+                           <ol>
+                               <li><strong>Raise the Alarm:</strong> Alert everyone in the vicinity by activating fire alarms or shouting to notify others. Call the emergency fire services immediately.</li>
+                               <li><strong>Evacuate the Area:</strong> Follow the evacuation route to exit the building safely. Do not use elevators; use stairs instead. Assist others, especially the elderly, children, or those with disabilities.</li>
+                               <li><strong>Close Doors Behind You:</strong> Close doors to contain the fire and prevent it from spreading, but do not lock them.</li>
+                               <li><strong>Avoid Smoke:</strong> If smoke is present, stay low to the ground as smoke rises. Crawl if necessary to avoid inhaling toxic fumes. Use a cloth (preferably wet) to cover your nose and mouth to filter out smoke.</li>
+                               <li><strong>Do Not Re-enter the Building:</strong> Once safely outside, do not go back inside for any reason until the fire is declared under control by authorities.</li>
+                               <li><strong>Use Fire Extinguisher (If Safe):</strong> If the fire is small and manageable, use a fire extinguisher, but only if you are trained to do so. Aim at the base of the fire.</li>
+                               <li><strong>Stop, Drop, and Roll:</strong> If your clothes catch fire, stop immediately, drop to the ground, and roll to extinguish the flames.</li>
+                               <li><strong>Stay Informed:</strong> Listen to instructions from emergency personnel and follow official guidelines.</li>
+                               <li><strong>Provide First Aid:</strong> Assist anyone who is injured, if trained, or wait for emergency medical personnel to arrive.</li>
+                               <li><strong>Avoid Open Flames or Electrical Devices:</strong> Do not use open flames (candles, lighters) or switch on/off electrical devices as they could ignite flammable materials or gas leaks.</li>
+                           </ol>
+                       </div>
+                       {% endif %}
+                       
+                     </div>
+                     <div class="col-sm-6">
+                       
+                        {% if files %}
+                        <div class="scroll-container">
+                           {% for file in files %}
+                              <img src="{{ url_for('static', filename='results/' ~ file) }}" alt="{{ file }}" height="100%">
+                           {% endfor %}
+                        </div>
+                     {% else %}
+                        <p>No results found. Please upload a video and try again.</p>
+                     {% endif %}
+                          
+                      
+                     </div>
+                   
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- end what we do  -->
+      {% include "footer.html" %}

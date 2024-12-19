@@ -1,0 +1,39 @@
+.container_fire{
+    margin: 12%;
+}
+.card{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 300px;
+    width: 300px;
+    padding: 10px 25px;
+   margin-left: 350px;
+}
+
+form{
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    margin: 5px;
+    padding: 6px;
+}
+.firebtn{
+    cursor: pointer;
+    background-color: #f44a40;
+    color: #ffff;
+    
+}
+.firebtn:hover{
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.color_Code{
+    background-color: green;
+    color: white;
+    margin: 15px;
+    width: 250px;
+    border-radius: 25px;
+}
+.color_Code span{
+    padding: 25px;
+}

@@ -1,0 +1,6 @@
+flask
+keras
+opencv-python
+tensorflow
+matplotlib
+Flask-Session

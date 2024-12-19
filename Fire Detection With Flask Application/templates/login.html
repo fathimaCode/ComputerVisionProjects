@@ -1,0 +1,27 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="static/css/fire.css">
+</head>
+<body>
+
+   <div class="container_fire">
+    <div class="card">
+        <h1>Login Here</h1>
+        <form  action="{{ url_for('authorised') }}" method="post">
+            <input type="text" placeholder="Email Address" name="email">
+            <input type="password" placeholder="Password" name="pwd">
+            <input type="submit" value="Login" class="firebtn">
+        </form>
+        {% if message %}
+        <div class="color_Code"><span>{{message}} </span></div>
+        
+        {% endif %}
+
+       
+    </div>
+   </div> 
+</body>
+</html>
