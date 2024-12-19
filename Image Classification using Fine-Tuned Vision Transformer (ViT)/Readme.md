@@ -5,9 +5,17 @@
 
 ![image](https://github.com/user-attachments/assets/4c6f808e-786c-47bd-839b-f7387d837daa)
 
+
+
+
 ## 2 Depth Pro for depth estimation
 
 ![image](https://github.com/user-attachments/assets/73d7dc82-1e46-4fe1-8d05-52060dcd8d04)
 
 **Result**
 ![image](https://github.com/user-attachments/assets/5e4792cb-2455-4be4-b1e6-4d363c5ef0f9)
+
+
+## 3 DETR (End-to-End Object Detection) model with ResNet-50 backbone
+
+![image](https://github.com/user-attachments/assets/ec9133a6-b3d1-4711-a5f0-1def4ed8e57a)
