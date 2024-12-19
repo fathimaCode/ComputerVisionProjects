@@ -17,6 +17,9 @@
 14. math (floor)  
 15. os
 
+Block Diagram
+
+![image](https://github.com/user-attachments/assets/e745878d-b2fc-4473-a6e3-d5d93e25df60)
 
 ## The basic Opencv image dilation and edge detection and face recognisation are utilised
 
