@@ -22,10 +22,10 @@ def home():
     return render_template('index.html')
 
 def change_shirt_color(img, color):
-    # Convert to HSV (Hue, Saturation, Value) color space for better color manipulation
+
     hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
     
-    # Define the color range for the shirt (tweak these values based on the shirt color in the image)
+   
     lower_color = np.array([0, 0, 0])
     upper_color = np.array([180, 255, 50])
     
@@ -89,7 +89,7 @@ def generate_frames(top_image, pant_image):
             pantWidth = int(3 * w)
             pantHeight = int(pantWidth * origpantHeight / origpantWidth)  # Use correct pant dimensions
 
-            # Ensure pantWidth and pantHeight are positive
+           
             if pantWidth <= 0 or pantHeight <= 0:
                 print(f"Invalid pant dimensions: Width={pantWidth}, Height={pantHeight}")
                 continue
@@ -117,16 +117,15 @@ def generate_frames(top_image, pant_image):
 
             if roi_bg.shape != roi_fg.shape:
                 print(f"Size mismatch: roi_bg {roi_bg.shape}, roi_fg {roi_fg.shape}")
-                continue  # Skip if sizes do not match
+                continue  
 
             dst = cv2.add(roi_bg, roi_fg)
             img[y1:y2, x1:x2] = dst
 
-            # Shirt processing (similar logic to pants)
+      
             shirtWidth = int(3 * w)
             shirtHeight = int(shirtWidth * origshirtHeight / origshirtWidth)
 
-            # Ensure shirtWidth and shirtHeight are positive
             if shirtWidth <= 0 or shirtHeight <= 0:
                 print(f"Invalid shirt dimensions: Width={shirtWidth}, Height={shirtHeight}")
                 continue
@@ -189,7 +188,7 @@ def capture():
             'imageFile': image_filename,
         }
 
-        # Return result and image filename as JSON
+        
         return jsonify({
             'message': 'Face Image captured successfully!',
             'result': result
