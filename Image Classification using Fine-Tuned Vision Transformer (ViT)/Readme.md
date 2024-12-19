@@ -19,3 +19,14 @@
 ## 3 DETR (End-to-End Object Detection) model with ResNet-50 backbone
 
 ![image](https://github.com/user-attachments/assets/ec9133a6-b3d1-4711-a5f0-1def4ed8e57a)
+
+
+## 4. BRIA Background Removal v1.4 Model Card
+**input image**
+
+![image](https://github.com/user-attachments/assets/f75c0dda-4f28-4868-a83f-b2fcea51f0e6)
+
+
+**segmented image**
+
+![image](https://github.com/user-attachments/assets/3cf23714-31bf-4328-bbad-c2a425bde63a)
