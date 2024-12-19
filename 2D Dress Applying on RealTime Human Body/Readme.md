@@ -21,7 +21,7 @@ Block Diagram
 
 ![image](https://github.com/user-attachments/assets/e745878d-b2fc-4473-a6e3-d5d93e25df60)
 
-## The basic Opencv image dilation and edge detection and face recognisation are utilised
+## The basic Opencv image dilation and edge detection and face detection are utilised
 
 ![Screenshot 2024-12-19 154715](https://github.com/user-attachments/assets/d5d0da7a-22a1-4863-8362-5139191e8a9b)
 
