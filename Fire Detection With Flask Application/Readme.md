@@ -19,3 +19,4 @@ collections.Counter
 ## after that i added model in the flask root and predicted the video frame
 
 ## Demo Video:
+https://www.youtube.com/watch?v=f26DGUwR4C4
