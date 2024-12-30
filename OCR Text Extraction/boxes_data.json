@@ -1,0 +1,702 @@
+[
+    {
+        "text": " ",
+        "confidence": 95,
+        "bounding_box": {
+            "x": 0,
+            "y": 0,
+            "width": 297,
+            "height": 18
+        }
+    },
+    {
+        "text": "FOODS",
+        "confidence": 88,
+        "bounding_box": {
+            "x": 89,
+            "y": 148,
+            "width": 140,
+            "height": 65
+        }
+    },
+    {
+        "text": "SHARON",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 94,
+            "y": 240,
+            "width": 76,
+            "height": 24
+        }
+    },
+    {
+        "text": "RD.",
+        "confidence": 95,
+        "bounding_box": {
+            "x": 185,
+            "y": 241,
+            "width": 33,
+            "height": 23
+        }
+    },
+    {
+        "text": "PL",
+        "confidence": 71,
+        "bounding_box": {
+            "x": 114,
+            "y": 314,
+            "width": 10,
+            "height": 11
+        }
+    },
+    {
+        "text": "TORTILLA\u2019S",
+        "confidence": 81,
+        "bounding_box": {
+            "x": 138,
+            "y": 314,
+            "width": 72,
+            "height": 12
+        }
+    },
+    {
+        "text": "CAGE",
+        "confidence": 93,
+        "bounding_box": {
+            "x": 76,
+            "y": 335,
+            "width": 28,
+            "height": 11
+        }
+    },
+    {
+        "text": "FREE",
+        "confidence": 93,
+        "bounding_box": {
+            "x": 114,
+            "y": 336,
+            "width": 27,
+            "height": 10
+        }
+    },
+    {
+        "text": "ALL",
+        "confidence": 89,
+        "bounding_box": {
+            "x": 152,
+            "y": 336,
+            "width": 20,
+            "height": 10
+        }
+    },
+    {
+        "text": "WHIT",
+        "confidence": 89,
+        "bounding_box": {
+            "x": 182,
+            "y": 336,
+            "width": 27,
+            "height": 11
+        }
+    },
+    {
+        "text": "BLACK",
+        "confidence": 92,
+        "bounding_box": {
+            "x": 129,
+            "y": 357,
+            "width": 35,
+            "height": 11
+        }
+    },
+    {
+        "text": "BEANS",
+        "confidence": 89,
+        "bounding_box": {
+            "x": 175,
+            "y": 357,
+            "width": 35,
+            "height": 11
+        }
+    },
+    {
+        "text": "Frozen",
+        "confidence": 92,
+        "bounding_box": {
+            "x": 76,
+            "y": 378,
+            "width": 43,
+            "height": 11
+        }
+    },
+    {
+        "text": "160",
+        "confidence": 93,
+        "bounding_box": {
+            "x": 190,
+            "y": 378,
+            "width": 20,
+            "height": 11
+        }
+    },
+    {
+        "text": "Uhole",
+        "confidence": 87,
+        "bounding_box": {
+            "x": 76,
+            "y": 399,
+            "width": 36,
+            "height": 10
+        }
+    },
+    {
+        "text": "Strauberries",
+        "confidence": 77,
+        "bounding_box": {
+            "x": 121,
+            "y": 399,
+            "width": 89,
+            "height": 12
+        }
+    },
+    {
+        "text": "OG",
+        "confidence": 77,
+        "bounding_box": {
+            "x": 76,
+            "y": 420,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "LF",
+        "confidence": 86,
+        "bounding_box": {
+            "x": 98,
+            "y": 420,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "COTTAGE",
+        "confidence": 92,
+        "bounding_box": {
+            "x": 121,
+            "y": 420,
+            "width": 51,
+            "height": 12
+        }
+    },
+    {
+        "text": "CHEE",
+        "confidence": 94,
+        "bounding_box": {
+            "x": 182,
+            "y": 421,
+            "width": 27,
+            "height": 11
+        }
+    },
+    {
+        "text": "WAHT",
+        "confidence": 67,
+        "bounding_box": {
+            "x": 83,
+            "y": 441,
+            "width": 28,
+            "height": 11
+        }
+    },
+    {
+        "text": "FILLETS",
+        "confidence": 90,
+        "bounding_box": {
+            "x": 159,
+            "y": 442,
+            "width": 51,
+            "height": 11
+        }
+    },
+    {
+        "text": "$2",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 76,
+            "y": 463,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "off",
+        "confidence": 95,
+        "bounding_box": {
+            "x": 98,
+            "y": 463,
+            "width": 21,
+            "height": 11
+        }
+    },
+    {
+        "text": "(1)",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 129,
+            "y": 464,
+            "width": 21,
+            "height": 10
+        }
+    },
+    {
+        "text": "UC",
+        "confidence": 85,
+        "bounding_box": {
+            "x": 159,
+            "y": 464,
+            "width": 13,
+            "height": 10
+        }
+    },
+    {
+        "text": "Fill",
+        "confidence": 85,
+        "bounding_box": {
+            "x": 182,
+            "y": 464,
+            "width": 27,
+            "height": 10
+        }
+    },
+    {
+        "text": "California",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 76,
+            "y": 484,
+            "width": 74,
+            "height": 11
+        }
+    },
+    {
+        "text": "Harvest",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 159,
+            "y": 485,
+            "width": 50,
+            "height": 11
+        }
+    },
+    {
+        "text": "1.08",
+        "confidence": 78,
+        "bounding_box": {
+            "x": 23,
+            "y": 506,
+            "width": 27,
+            "height": 9
+        }
+    },
+    {
+        "text": "TARE",
+        "confidence": 90,
+        "bounding_box": {
+            "x": 214,
+            "y": 506,
+            "width": 25,
+            "height": 10
+        }
+    },
+    {
+        "text": "=",
+        "confidence": 72,
+        "bounding_box": {
+            "x": 250,
+            "y": 509,
+            "width": 3,
+            "height": 3
+        }
+    },
+    {
+        "text": "PLUMS",
+        "confidence": 80,
+        "bounding_box": {
+            "x": 106,
+            "y": 527,
+            "width": 36,
+            "height": 10
+        }
+    },
+    {
+        "text": "BLACK",
+        "confidence": 95,
+        "bounding_box": {
+            "x": 152,
+            "y": 527,
+            "width": 35,
+            "height": 10
+        }
+    },
+    {
+        "text": "CV",
+        "confidence": 95,
+        "bounding_box": {
+            "x": 197,
+            "y": 527,
+            "width": 13,
+            "height": 10
+        }
+    },
+    {
+        "text": "NHP",
+        "confidence": 92,
+        "bounding_box": {
+            "x": 76,
+            "y": 588,
+            "width": 20,
+            "height": 10
+        }
+    },
+    {
+        "text": "SLICED",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 106,
+            "y": 588,
+            "width": 43,
+            "height": 10
+        }
+    },
+    {
+        "text": "OVEN",
+        "confidence": 95,
+        "bounding_box": {
+            "x": 159,
+            "y": 588,
+            "width": 28,
+            "height": 10
+        }
+    },
+    {
+        "text": "RO",
+        "confidence": 88,
+        "bounding_box": {
+            "x": 197,
+            "y": 587,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "NHP",
+        "confidence": 90,
+        "bounding_box": {
+            "x": 76,
+            "y": 610,
+            "width": 21,
+            "height": 10
+        }
+    },
+    {
+        "text": "SLICED",
+        "confidence": 92,
+        "bounding_box": {
+            "x": 107,
+            "y": 609,
+            "width": 43,
+            "height": 11
+        }
+    },
+    {
+        "text": "HICKORY",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 159,
+            "y": 609,
+            "width": 50,
+            "height": 10
+        }
+    },
+    {
+        "text": "1.64",
+        "confidence": 80,
+        "bounding_box": {
+            "x": 26,
+            "y": 631,
+            "width": 26,
+            "height": 9
+        }
+    },
+    {
+        "text": "1b",
+        "confidence": 69,
+        "bounding_box": {
+            "x": 64,
+            "y": 630,
+            "width": 11,
+            "height": 11
+        }
+    },
+    {
+        "text": "/Ib",
+        "confidence": 69,
+        "bounding_box": {
+            "x": 136,
+            "y": 622,
+            "width": 24,
+            "height": 28
+        }
+    },
+    {
+        "text": "TARE",
+        "confidence": 92,
+        "bounding_box": {
+            "x": 212,
+            "y": 629,
+            "width": 40,
+            "height": 10
+        }
+    },
+    {
+        "text": "GALA",
+        "confidence": 93,
+        "bounding_box": {
+            "x": 108,
+            "y": 651,
+            "width": 27,
+            "height": 9
+        }
+    },
+    {
+        "text": "APPLES",
+        "confidence": 93,
+        "bounding_box": {
+            "x": 145,
+            "y": 651,
+            "width": 41,
+            "height": 9
+        }
+    },
+    {
+        "text": "OG",
+        "confidence": 74,
+        "bounding_box": {
+            "x": 196,
+            "y": 651,
+            "width": 13,
+            "height": 8
+        }
+    },
+    {
+        "text": "3",
+        "confidence": 96,
+        "bounding_box": {
+            "x": 258,
+            "y": 649,
+            "width": 3,
+            "height": 9
+        }
+    },
+    {
+        "text": "99",
+        "confidence": 79,
+        "bounding_box": {
+            "x": 266,
+            "y": 312,
+            "width": 19,
+            "height": 12
+        }
+    },
+    {
+        "text": "69",
+        "confidence": 94,
+        "bounding_box": {
+            "x": 272,
+            "y": 334,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "29",
+        "confidence": 93,
+        "bounding_box": {
+            "x": 272,
+            "y": 356,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "99",
+        "confidence": 87,
+        "bounding_box": {
+            "x": 272,
+            "y": 377,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "99",
+        "confidence": 94,
+        "bounding_box": {
+            "x": 271,
+            "y": 399,
+            "width": 14,
+            "height": 11
+        }
+    },
+    {
+        "text": "49",
+        "confidence": 93,
+        "bounding_box": {
+            "x": 271,
+            "y": 420,
+            "width": 14,
+            "height": 11
+        }
+    },
+    {
+        "text": "99",
+        "confidence": 83,
+        "bounding_box": {
+            "x": 271,
+            "y": 442,
+            "width": 14,
+            "height": 11
+        }
+    },
+    {
+        "text": "00-",
+        "confidence": 79,
+        "bounding_box": {
+            "x": 271,
+            "y": 463,
+            "width": 20,
+            "height": 11
+        }
+    },
+    {
+        "text": "69",
+        "confidence": 84,
+        "bounding_box": {
+            "x": 271,
+            "y": 484,
+            "width": 13,
+            "height": 11
+        }
+    },
+    {
+        "text": "B",
+        "confidence": 84,
+        "bounding_box": {
+            "x": 294,
+            "y": 484,
+            "width": 5,
+            "height": 11
+        }
+    },
+    {
+        "text": "15",
+        "confidence": 66,
+        "bounding_box": {
+            "x": 272,
+            "y": 527,
+            "width": 12,
+            "height": 10
+        }
+    },
+    {
+        "text": "B",
+        "confidence": 66,
+        "bounding_box": {
+            "x": 293,
+            "y": 526,
+            "width": 6,
+            "height": 11
+        }
+    },
+    {
+        "text": "4040",
+        "confidence": 92,
+        "bounding_box": {
+            "x": 271,
+            "y": 546,
+            "width": 28,
+            "height": 11
+        }
+    },
+    {
+        "text": "26",
+        "confidence": 81,
+        "bounding_box": {
+            "x": 271,
+            "y": 649,
+            "width": 12,
+            "height": 9
+        }
+    },
+    {
+        "text": "B",
+        "confidence": 81,
+        "bounding_box": {
+            "x": 293,
+            "y": 648,
+            "width": 5,
+            "height": 10
+        }
+    },
+    {
+        "text": "ITEM",
+        "confidence": 87,
+        "bounding_box": {
+            "x": 212,
+            "y": 669,
+            "width": 27,
+            "height": 11
+        }
+    },
+    {
+        "text": "=",
+        "confidence": 87,
+        "bounding_box": {
+            "x": 249,
+            "y": 672,
+            "width": 4,
+            "height": 4
+        }
+    },
+    {
+        "text": "94135",
+        "confidence": 91,
+        "bounding_box": {
+            "x": 264,
+            "y": 667,
+            "width": 35,
+            "height": 12
+        }
+    },
+    {
+        "text": "BAL",
+        "confidence": 80,
+        "bounding_box": {
+            "x": 170,
+            "y": 710,
+            "width": 20,
+            "height": 10
+        }
+    },
+    {
+        "text": "45.44",
+        "confidence": 86,
+        "bounding_box": {
+            "x": 253,
+            "y": 708,
+            "width": 36,
+            "height": 11
+        }
+    }
+]
